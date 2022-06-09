@@ -1,0 +1,25 @@
+/*mobile & tablet*/ 
+@media only screen and (max-width: 1023px) {
+    :root {
+        
+    }
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+}
+
+/*mobile*/ 
+@media only screen and (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+}

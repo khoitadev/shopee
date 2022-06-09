@@ -1,0 +1,51 @@
+/*mobile & tablet*/ 
+@media only screen and (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header-cart-list {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 100%;
+    }
+    .header-cart-list::before {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+    .hide-on-tablet {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+    }
+    .header-cart {
+        width: 80px;
+        text-align: right;
+    }
+    .header-cart-list {
+        padding: 0 calc((100% - 644px) / 2);
+    }
+    .app__container {
+        margin-top: var(--);
+    }
+
+}
+
+/*mobile*/ 
+@media only screen and (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+}
